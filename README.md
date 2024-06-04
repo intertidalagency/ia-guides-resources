@@ -1,2 +1,2 @@
 # ia-guides-resources
-Guides and resources developd by Intertidal
+Guides and resources developed by Intertidal
