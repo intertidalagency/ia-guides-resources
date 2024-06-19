@@ -1,0 +1,20 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Guides and Resources for Ocean Data Stewardship",
+    "section": "",
+    "text": "Welcome to Intertidal’s page for ocean data resources.\nBlurb here about our resources…\nWe’ll also want to style this with our brand, logo, etc."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Home",
+      "About"
+    ]
+  }
+]

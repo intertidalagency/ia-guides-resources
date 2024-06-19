@@ -1,0 +1,48 @@
+project:
+  type: website
+
+website:
+  title: "Guides and Resources for Ocean Data Stewardship"
+  page-navigation: true
+  favicon: /img/Intertidal_Icon_Light_Color.png
+  navbar: 
+    title: false
+    background: primary
+    logo: /img/Intertidal_PrimaryLogo_Bold_White.png
+    logo-href: https://intertidal.agency/
+    tools: 
+      - icon: github
+        href: https://github.com/intertidalagency/ia-guides-resources
+      - icon: linkedin
+        href: https://www.linkedin.com/company/intertidal-agency/
+  search: 
+    location: sidebar
+    type: textbox
+  sidebar:
+    style: "floating"
+    type: "light"
+    background: "primary"
+    alignment: "left"
+    border: false
+    contents:
+      - section: "Guides"
+        contents: 
+          - repository_review.qmd
+          - defining_data_journey.qmd
+      - text: "---"
+      - section: "Resources"
+        contents: 
+          - repository_criteria.qmd
+          - minimum_metadata.qmd
+  page-footer: "Content licensed CCBY 4.0, Intertidal Agency"
+        
+
+format:
+  html:
+    theme:
+      - minty
+      - custom.scss
+    toc: true
+
+editor: visual
+
