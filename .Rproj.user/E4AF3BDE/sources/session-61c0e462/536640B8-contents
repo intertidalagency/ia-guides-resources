@@ -1,55 +1,27 @@
 /*-- scss:defaults --*/
 // scss-docs-start color-variables
-$deepsea:    #0F3029 !default;
-$wave:  #034969 !default;
-$tidepool:  #0E7272 !default;
-$aqua:    #30ACAE !default;
-$kingfisher:     #CF471F !default;
-$sand:  #F3EDE4 !default;
-$white:  #ffffff !default;
-$black:   #000000 !default;
+$deepsea:    #0F3029 ;
+$wave:  #034969 ;
+$tidepool:  #0E7272 ;
+$aqua:    #30ACAE ;
+$kingfisher:     #CF471F ;
+$sand:  #F3EDE4 ;
+$white:  #ffffff ;
+$black:   #000000 ;
 // scss-docs-end color-variables
 
-// scss-docs-start theme-color-variables
-$primary:       $deepsea !default;
-$secondary:     $aqua !default;
-$success:       $wave !default;
-$info:          $tidepool !default;
-$warning:       $kingfisher !default;
-$danger:        $kingfisher !default;
-$light:         $white !default;
-$dark:          $black !default;
-// scss-docs-end theme-color-variables
-
-// scss-docs-start theme-colors-map
-$theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
-) !default;
-// scss-docs-end theme-colors-map
-
-
-
-/*-- scss:rules --*/
 // Body
 //
 // Settings for the `<body>` element.
 
-$body-text-align:           null !default;
-$body-color:                $aqua !default;
-$body-bg:                   $deepsea !default;
+$body-color:                #30ACAE ;
+$body-bg:                   #0F3029 ;
 
-$body-secondary-color:      rgba($body-color, .75) !default;
-$body-secondary-bg:         $gray-200 !default;
+$body-secondary-color:      rgba($wave, .75) !default;
+$body-secondary-bg:         $sand !default;
 
-$body-tertiary-color:       rgba($body-color, .5) !default;
-$body-tertiary-bg:          $gray-100 !default;
+$body-tertiary-color:       rgba($tidepool, .5) !default;
+$body-tertiary-bg:          $white !default;
 
 $body-emphasis-color:       $kingfisher !default;
 
@@ -75,7 +47,10 @@ $stretched-link-z-index:                  1 !default;
 // scss-docs-start font-variables
 // stylelint-disable value-keyword-case
 $font-family-sans-serif:      system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-family-monospace:       DMMono-Normal, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-monospace:       DM Mono-Normal, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+
+/*-- scss:rules --*/
 
 
 

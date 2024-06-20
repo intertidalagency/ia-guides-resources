@@ -7,7 +7,7 @@ website:
   favicon: /img/Intertidal_Icon_Light_Color.png
   navbar: 
     title: false
-    background: primary
+    background: "#0F3029"
     logo: /img/Intertidal_PrimaryLogo_Bold_White.png
     logo-href: https://intertidal.agency/
     tools: 
@@ -21,7 +21,7 @@ website:
   sidebar:
     style: "floating"
     type: "light"
-    background: "primary"
+    background: "#0F3029"
     alignment: "left"
     border: false
     contents:
@@ -34,15 +34,30 @@ website:
         contents: 
           - repository_criteria.qmd
           - minimum_metadata.qmd
-  page-footer: "Content licensed CCBY 4.0, Intertidal Agency"
+  page-footer: 
+    center: "Content licensed CCBY 4.0, Intertidal Agency"
+    background: "#0E7272"
         
 
 format:
   html:
     theme:
-      - minty
+      - default
       - custom.scss
+    mainfont: Public Sans
+    fontsize: 1.15rem
+    fontcolor: "#F3EDE4"
+    linkcolor: "#30ACAE"
+    monofont: DM Mono
+    backgroundcolor: "#0F3029"
+    monobackgroundcolor: "#034969"
     toc: true
+    page-layout: full
+    grid:
+      sidebar-width: 300px
+      body-width: 2000px
+      margin-width: 150px
+      gutter-width: 3rem
 
 editor: visual
 
