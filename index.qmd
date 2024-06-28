@@ -8,5 +8,5 @@ Welcome to Intertidal's page for ocean data resources.
 Blurb here about our resources...
 
 
-We'll also want to style this with our brand, logo, etc.  
+We'll also want to style this with our logo, fonts, and other brand style elements.  
 
