@@ -3,10 +3,13 @@ title: "Guides and Resources for Ocean Data Stewardship"
 page-navigation: false
 ---
 
-Welcome to Intertidal's page for ocean data resources.
-
-Blurb here about our resources...
+# Welcome to Intertidal's page for ocean data resources.
 
 
-We'll also want to style this with our logo, fonts, and other brand style elements.  
+## Blurb here about our resources...
 
+
+### We'll also want to style this with our logo, fonts, and other brand style elements.  
+
+This is a body text line. 
+                                                

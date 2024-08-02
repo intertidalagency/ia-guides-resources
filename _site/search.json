@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Guides and Resources for Ocean Data Stewardship",
     "section": "",
-    "text": "Welcome to Intertidal’s page for ocean data resources.\nBlurb here about our resources…\nWe’ll also want to style this with our logo, fonts, and other brand style elements."
+    "text": "This is a body text line."
   },
   {
     "objectID": "about.html",
@@ -23,5 +23,12 @@
     "title": "Guides and Resources for Ocean Data Stewardship",
     "section": "",
     "text": "The content of this repository is licensed by CCBY 4.0.\nYou are free to share and adapt the content. You must give appropriate credit, provide a link to the license, and indicate if changes were made."
+  },
+  {
+    "objectID": "index.html#blurb-here-about-our-resources",
+    "href": "index.html#blurb-here-about-our-resources",
+    "title": "Guides and Resources for Ocean Data Stewardship",
+    "section": "",
+    "text": "This is a body text line."
   }
 ]

@@ -7,7 +7,7 @@ website:
   favicon: /img/Intertidal_Icon_Light_Color.png
   navbar: 
     title: false
-    background: "#0F3029"
+    background: "#034969"
     logo: /img/Intertidal_PrimaryLogo_Bold_White.png
     logo-href: https://intertidal.agency/
     tools: 
@@ -21,7 +21,7 @@ website:
   sidebar:
     style: "floating"
     type: "light"
-    background: "#0F3029"
+    background: "#034969"
     alignment: "left"
     border: false
     contents:
@@ -44,12 +44,9 @@ format:
     theme:
       - default
       - custom.scss
-    mainfont: Public Sans
-    fontsize: 1.15rem
     fontcolor: "#F3EDE4"
     linkcolor: "#30ACAE"
-    monofont: DM Mono
-    backgroundcolor: "#0F3029"
+    backgroundcolor: "#034969"
     monobackgroundcolor: "#034969"
     toc: true
     page-layout: full
