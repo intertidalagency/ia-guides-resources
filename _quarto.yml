@@ -10,11 +10,6 @@ website:
     background: "#034969"
     logo: /img/Intertidal_PrimaryLogo_Bold_White.png
     logo-href: https://intertidal.agency/
-    tools: 
-      - icon: github
-        href: https://github.com/intertidalagency/ia-guides-resources
-      - icon: linkedin
-        href: https://www.linkedin.com/company/intertidal-agency/
   search: 
     location: sidebar
     type: textbox
@@ -35,8 +30,15 @@ website:
           - repository_criteria.qmd
           - minimum_metadata.qmd
   page-footer: 
+    left: <img src="/img/Intertidal_PrimaryLogo_Bold_White.png" width="105">
     center: "Content licensed CCBY 4.0, Intertidal Agency"
+    right: 
+      - icon: linkedin
+        href: https://www.linkedin.com/company/intertidal-agency/
+      - icon: github
+        href: https://github.com/intertidalagency/ia-guides-resources
     background: "#0E7272"
+
         
 
 format:
@@ -44,11 +46,13 @@ format:
     theme:
       - default
       - custom.scss
-    fontcolor: "#F3EDE4"
-    linkcolor: "#30ACAE"
+    fontcolor: "#ffffff"
+    fontsize: 1.2rem
+    # linkcolor: "#30ACAE"
     backgroundcolor: "#034969"
-    monobackgroundcolor: "#034969"
-    toc: true
+    # monobackgroundcolor: "#034969"
+    toc: false
+    author-meta: "Intertidal Agency"
     page-layout: full
     grid:
       sidebar-width: 300px

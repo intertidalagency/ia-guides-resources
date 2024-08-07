@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Guides and Resources for Ocean Data Stewardship",
     "section": "",
-    "text": "This is a body text line."
+    "text": "Body text: This is a body text line."
   },
   {
     "objectID": "about.html",
@@ -27,8 +27,15 @@
   {
     "objectID": "index.html#blurb-here-about-our-resources",
     "href": "index.html#blurb-here-about-our-resources",
-    "title": "Guides and Resources for Ocean Data Stewardship",
+    "title": "Welcome to Intertidal’s page for ocean data resources.",
     "section": "",
     "text": "This is a body text line."
+  },
+  {
+    "objectID": "index.html#h2-blurb-here-about-our-resources",
+    "href": "index.html#h2-blurb-here-about-our-resources",
+    "title": "Guides and Resources for Ocean Data Stewardship",
+    "section": "",
+    "text": "Body text: This is a body text line."
   }
 ]
