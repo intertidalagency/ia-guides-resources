@@ -5,7 +5,7 @@ project:
 website:
   title: "Guides and Resources for Ocean Data Stewardship"
   page-navigation: true
-  favicon: /img/Intertidal_Icon_Light_Color.png
+  favicon: /img/Intertidal_Icon_Bold_Color.png
   navbar: 
     title: false
     background: "#034969"
