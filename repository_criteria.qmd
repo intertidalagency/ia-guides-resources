@@ -1,0 +1,103 @@
+---
+title: "Criteria for evaluating or creating data repositories"
+format: html
+---
+
+### Background
+
+When storing data, the question of where to put it for long-term access and reuse (>40 years) often comes up.  The best place to put it is in a repository; *a persistent, findable, searchable entity that provides infrastructure for long-term storage and access to data.* A repository should provide for data publication by data holders, as well as access for using/reusing data. It should not be a place into which data is contributed without any way to retrieve it in the future.  To evaluate whether data places are robust repositories, Intertidal has developed the following criteria to help data stewards make their own decisions.  Not all criteria will be applicable to everyone, but each data steward or organization deciding where to put their data should make transparent decisions about which criteria are important to them and document how those decisions are made.  
+
+
+### Technical Criteria
+* Unique Persistent Identifiers
+    + Assigns PIDs to datasets
+    + PID points to persistent landing page
+* Security and Integrity
+    + Documented criteria for preventing unauthorized access, modification, or release of data
+    + Security levels appropriate to the sensitivity of data
+    + Data anonymization
+* Confidentiality
+    + Ensure administrative, technical, and physical safeguards
+
+### Data Criteria
+* What types of data can be ingested / stored?
+* For connected data sources, API standards? Other requirements?
+* Common Format
+    + Allows datasets and metadata to be downloaded, accessed, or exported
+    + Support for widely used and non-proprietary formats for data and metadata
+
+### Management / Curation Criteria
+* Long-term Sustainability
+    + Long-term management of data
+    + Maintain availability of dataset
+    + Stable technical infrastructure
+    + Stable funding
+    + Contingency plan for data
+* Curation and Quality Assurance
+    + Provide or enable others to provide expert curation
+    + Datasets must have metadata
+    + Titles of records/datasets should be standardized in quality, if not content, across a given portal/repo/catalog
+    + Short descriptive blurbs/abstracts/summaries about a dataset/record should be informative but not overly long and wordy.  These should be curated.
+* Retention Policy
+    + Policy for data retention
+
+### Documentation Criteria
+* Metadata Criteria
+    + Datasets must have metadata
+    + Use schemas appropriate to the community
+    + Include search keywords to make dataset discoverable
+* Provenance Criteria
+    + Record the origins, chain of custody, and modifications of the data
+    + Link datasets to provide context and aid in discoverability
+
+### Data Use / Reuse / Sharing Criteria
+* Discoverability
+    + Repository federated with other repositories
+    + Repository listed in a wider catalog/federation/etc. that can be a one-stop-shop pointer to datasets
+    + Should use PIDs or UIDs, not website URLs (break frequently)
+* Free and Easy Access
+    + Free access to datasets and metadata
+    + Support for broad, equitable, open access
+    + Timely access after submission
+    + Maintain privacy, confidentiality, tribal sovereignty, and protection of sensitive data
+* Broad and Measured Reuse
+    + Broadest possible terms of reuse
+    + Measure attribution, citation, and reuse
+* Clear Use Guidance
+    + Clear documentation of terms for access and reuse
+
+### Management & Governance
+* For a restricted access repository
+    + Roles-based access management process
+    + How many roles can we have
+    + What parameters can we define for each role
+    + Access logs?
+
+### Pricing
+* How are accounts priced
+    + Storage size / data amount
+    + Number of users
+    + Specific features
+    + Other
+* Nonprofit discount?
+
+### Bonus
+* Repository is certified by [CoreTrustSeal](https://www.coretrustseal.org/)
+
+### Resources and Other Guidelines
+[FAIR Criteria](https://www.nature.com/articles/sdata201618)
+[CARE Criteria](https://atlanticdatastream.ca/en/article/fair-and-care-data-principles)
+[White House Guidelines](https://www.whitehouse.gov/wp-content/uploads/2022/05/05-2022-Desirable-Characteristics-of-Data-Repositories.pdf)  (aka [NSTC guidelines](https://www.whitehouse.gov/wp-content/uploads/2022/05/05-2022-Desirable-Characteristics-of-Data-Repositories.pdf))
+[NIH guidelines](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository#desirable-characteristics-for-all-data-repositories)
+[Center for Open Science re: guidelines](https://www.cos.io/blog/how-osf-meets-desirable-characteristics-for-data-repositories)
+[Belmont Forum](https://www.belmontforum.org/data)
+[OpenAIRE](https://www.openaire.eu/opendatapilot-repository-select-data-repository)
+[PLOS](https://everyone.plos.org/2018/03/01/criteria-for-recommended-data-repositories/)
+[Taylor and Francis](https://authorservices.taylorandfrancis.com/data-sharing/#)
+[Swiss NSF](https://www.snf.ch/en/WtezJ6qxuTRnSYgF/topic/open-research-data-which-data-repositories-can-be-used)
+[FAIRsharing and DataCite](https://osf.io/m2bce)
+[COAR](https://www.coar-repositories.org/news-updates/joint-position-statement-on-data-repository-selection-criteria-that-matter/)
+
+
+
+
