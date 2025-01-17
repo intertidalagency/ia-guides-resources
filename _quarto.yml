@@ -30,6 +30,7 @@ website:
         contents: 
           - repository_criteria.qmd
           - minimum_metadata.qmd
+          - data_mgmt_sharing_plans.qmd
   page-footer: 
     left: <img src="/img/Intertidal_PrimaryLogo_Bold_White.png" width="105">
     center: "Content licensed CCBY 4.0, Intertidal Agency"
