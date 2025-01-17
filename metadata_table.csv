@@ -1,0 +1,14 @@
+OW&W Essential Metadata,Common.language.description.of.the.essential.metadata.terms.,EML,ISO19115-2,DCAT-US
+Title ,"Should be informative and include the geographic area, the study subject, and the date (e.g. Benthic data from the Southern Gulf of Maine from 2020-2023)",Title ,Title,Title
+Author(s),The person(s) responsible for the intellectual input(s) to this research output,Creator,Author,Creator
+Contributor(s) ,"The person(s) or organization(s) responsible for parts of the data package, such as metadata provider, data steward, custodian, owner, principal investigator",Metadata Provider; Associated Party; Protocol Creator,Resource Provider; Custodian; Processor,Contributor; Rights Holder
+Contact,"The person responsible for curating the research output, and answering questions and providing further information about it",Contact,Point of Contact,Contact Point
+Persistent Identifier (PID),A unique persistent identifier such as a Digital Object Identifier (DOI),Identifier,Identifier,Identifier
+License,Terms that describe how the research output (including data) can be shared and reused.  Good practice is to explicitly state the license selected for the data.  The recommended licenses are CC0 (public domain) or CC-BY.,License and Usage Rights,License,License
+Date(s),"Date(s) of data collection, or the date the research output was created",Date Range,Date,Temporal
+Time(s),"Time(s) of data collection, or the time the research output was created",Temporal Coverage,DateTime,Temporal
+Geographic location,Description and geographic coordinates or bounding coordinates of the data collection or research output,Geographic Description; Bounding Coordinates,Geographic Bounding Box,Spatial
+RWSC Taxon/Topic,"RWSC taxon/topic(s) of focus (choose from: Birds & Bats, Data Governance, Habitat & Ecosystem, Marine Mammals, Protected Fish Species, Sea Turtles, Technology)",N/A,N/A,Theme
+Publisher,The name of the repository or journal or other organization that published the research output,Publisher,Publisher,Publisher
+Publication Date,Date the research output was published,PubDate,Publication Date,Issued
+Funder,"Name and persistent ID (e.g. ROR, if available) of the organization(s) funding this research",Funding,Funder,Qualified Attribution

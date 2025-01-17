@@ -20,7 +20,7 @@ Metadata describing every dataset, data products, and written article is needed 
 ```{r, echo=FALSE, warning=FALSE, include=FALSE}
 library(tidyverse); library(knitr); library(kableExtra)
 
-table1 <- read.csv("Table1.csv", header = TRUE, stringsAsFactors = FALSE)
+table1 <- read.csv("metadata_table.csv", header = TRUE, stringsAsFactors = FALSE)
 ```
 
 ```{r, echo=FALSE, warning=FALSE, include=FALSE}
