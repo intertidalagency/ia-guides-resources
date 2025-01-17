@@ -2,14 +2,8 @@
 title: "Guides and Resources for Ocean Data Stewardship"
 ---
 
-# H1 Intertidal's page for ocean data resources.
-
-
-## H2 Blurb here about our resources...
-
-
-### H3 We'll also want to style this with our logo, fonts, and other brand style elements.  
-
-
-Body text: This is a body text line. 
+Welcome to Intertidal's page of useful information!   
+Here we hope you will find answers to your questions about ocean data stewardship.  
+If you would like to see additional topics or questions added to these resources, 
+please [contact us](https://www.intertidalagency.org/contact). 
                                                 
