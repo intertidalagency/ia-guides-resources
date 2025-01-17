@@ -7,5 +7,11 @@
   },
   "license.md": {
     "license.html": "a0ee1f73"
+  },
+  "minimum_metadata.qmd": {
+    "minimum_metadata.html": "9502ea90"
+  },
+  "repository_criteria.qmd": {
+    "repository_criteria.html": "046805e6"
   }
 }

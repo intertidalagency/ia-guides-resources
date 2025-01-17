@@ -4,6 +4,5 @@ title: "Guides and Resources for Ocean Data Stewardship"
 
 Welcome to Intertidal's page of useful information!   
 Here we hope you will find answers to your questions about ocean data stewardship.  
-If you would like to see additional topics or questions added to these resources, 
-please [contact us](https://www.intertidalagency.org/contact). 
+If you would like to see additional topics or questions added, please [contact us](https://www.intertidalagency.org/contact). 
                                                 
