@@ -28,7 +28,7 @@ table1[6,2] <- paste0("Terms that describe how the research output (including da
 
 table1[5,2] <- paste0("A unique persistent identifier such as a ", "<a href=\"","https://www.doi.org/the-identifier/what-is-a-doi/","\">","Digital Object Identifier","</a>", " (DOI)")
 
-table1[13,2] <- paste0("Name and persistent ID (e.g. ", "<a href=\"","https://ror.org/","\">","ROR","</a>", ", if available) of the organization(s) funding this research")
+table1[12,2] <- paste0("Name and persistent ID (e.g. ", "<a href=\"","https://ror.org/","\">","ROR","</a>", ", if available) of the organization(s) funding this research")
                     
 ```
 
@@ -36,7 +36,7 @@ table1[13,2] <- paste0("Name and persistent ID (e.g. ", "<a href=\"","https://ro
 #| html-table-processing: none
 
 TBL <- kbl(table1, booktabs = TRUE, align = ("llccc"), format = "html", escape = FALSE,
-           col.names = c("OW&W Essential Metadata", 
+           col.names = c("Minimum Metadata", 
                          "Common-language description of the essential metadata terms.", 
                          "EML", "ISO19115-2", "DCAT-US")) %>% 
        kable_styling(full_width = FALSE, position = "center", fixed_thead = TRUE) %>% 
