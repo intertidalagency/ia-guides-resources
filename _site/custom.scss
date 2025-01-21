@@ -54,3 +54,18 @@ h3 {
 h1, h2, h3, h4 {
   margin: 0rem;
 }
+
+
+main {
+  ol ol,
+  ul ul,
+  ol ul,
+  ul ol {
+    /* remove margin bottom under nested list item */
+    margin-bottom: unset;
+  }
+  ul p {
+    /* remove margin under paragraph inside list */
+    margin-bottom: 0.2rem;
+  }
+}
