@@ -1,0 +1,111 @@
+---
+title: "Data Management & Sharing Plans: what and why"
+format: html
+---
+
+### What is a Data Management and Sharing Plan (DMSP)
+It is a document that describes how and when data and other research outputs will be managed and shared. These plans usually begin by identifying key personnel involved in the project and the number and types of data and other research outputs, then they how these data and outputs will be formatted and documented with metadata, and finally where the data and outputs will be published with any access or preservation restrictions or provisions.  
+
+### Important considerations
+How explicit or prescriptive do you want or need to be?   
+DMSPs are useful tools in the stewardship of data, yet they have usually been viewed as an annoying box-checking task without much further use.  However, DMSPs can be very customized, and used to educate and guide users to implement robust data stewardship practices. In addition, the implementation of machine-actionable DMSPs promises their greater utility in tracking provenance and relationships between data and other research outputs, and in crediting the many people who steward the data throughout its lifecycle.  
+
+### Example plans and resources
+NOAA Omics Data Management Guide - [Data Management Plans](https://noaa-omics-dmg.readthedocs.io/en/latest/dmp-template.html)  
+[BCO-DMO Repository](https://www.bco-dmo.org/) - [Data Management Plan](https://guide.bco-dmo.org/prepare/data_management_plan)  
+[DMPTool](https://dmptool.org)  
+National Science Foundation - [Data Management Plan template](https://www.nsf.gov/bfa/dias/policy/dmpdocs/dmr_template.pdf)
+
+### How to use this information
+Below is content that could be used in creating a DMSP.  These are questions that Intertidal thinks are important to think about, discuss among your team, and plan for when practicing good data stewardship.  However, DMSPs are created by different organizations and people for different audiences and to serve different purposes.  Therefore, the content listed below can be thought of as a menu from which you might choose to assemble a DMSP that suits your needs.  
+
+### DMSP Content Menu
+
+#### Project Information 
+
+* Project Title
+* Provide an abstract or short summary for this project.
+  + Please provide an abstract or short summary of this project, not to exceed 250 words.  
+
+* List the funder(s) of this project
+  + Please list the funder(s) for this project.  Please give the name of the funder and the funder persistent identifier (e.g. ROR) to disambiguate funder names.  
+
+#### Roles & Responsibilities
+
+This section covers the activities that are important for successful sharing of data.  Thoughtfully deciding who will fill these roles and have these responsibilities for data sharing and stewardship is critical.  While all persons working on this project are expected to practice good data stewardship, we are asking for the contact info for the key project personnel in the section below.  
+
+The following roles must be included below: Principal Investigator, Data Manager, Point of Contact.   Other roles that could be included here are Data Provider, Data Collector, Data Analyst, Data Engineer, GIS Analyst.  
+
+* Who is the Principal Investigator of this project and what is their affiliation and contact information? 
+  + This individual leads the project overall and directs entities and individuals who contribute to data stewardship for the purposes of executing a successful project.  This person may or may not hold other data stewardship roles.  Please provide first and last name, affiliation, email address, and ORCID for this person.  
+  
+* Who will be the Data Manager for this project? 
+  + This individual will lead data management efforts for this project.  They may or may not hold other roles on the project. Please provide first and last name, affiliation, email address, and ORCID for this person.  
+  
+* Who will be the primary Point of Contact to RWSC for this project?
+  + This individual will serve as the primary conduit for communication about data stewardship and governance.  This may be the Principal Investigator or another key person on the project.  Please provide first and last name, affiliation, email address, and ORCID for this person.  
+      
+* Who will make decisions about data sharing and management, and how?
+  + Describe who will have the authority to make these decisions and how the decisions will be made (e.g. voting, consensus).
+      
+* Who will be responsible for ensuring compliance with this Data Management & Sharing Plan?
+  + State the person who holds responsibility for compliance with this DMSP.  This individual will update the DMSP on a regular basis and will distribute the DMSP within the project team.  
+      
+* Who will be responsible for any updates, responding to inquiries, and ongoing maintenance of the data, even after the conclusion of the project?
+  + Describe who will maintain the data long-term, including fixing mistakes, updating metadata, and answering questions from data users.  
+      
+* What other data stewardship roles and responsibilities will be held by the project team?
+  + Describe how data stewardship and management responsibilities will be distributed across the project team. This might include data providers, data producers, technicians,  post-docs, or students.
+    
+#### Data Stewardship, Sharing, & Preservation
+  
+* Does the funder of this project, or a participating organization, have requirements to share data from this project, and if so, in what timeframe? 
+  + Describe any requirements to share the data from the project, and in what timeframe.  Specific sharing requirements by data type are covered more specifically in the following sections.  
+  
+* Does a funder, repository, or your organization require a specific license or data use agreement?
+  + Describe any licensing requirements from funders or other organizations.  
+  
+* What steps will your project team take to secure long-term (30-40 years) availability of project data and research outputs? 
+  + Publishing data in repositories with strong sustainability plans 
+  + Archiving back-up copies of data in long-term institutional cloud storage
+  + Including data maintenance in future funding requests and institutional budgets
+  + Assigning data stewardship roles & responsibilities to team members
+  + Updating this plan as staff change and data needs change
+  
+#### Research Outputs 
+
+For each data type or research output produced by this project, answer the following questions. 
+
+* What is the approximate number and size of data files that will be produced?
+  + Given the planned project and data collection, provide the most accurate estimate possible.  This information will help data storage calculations, and may impact the repositories where the data can be published.
+* Will sensor and deployment metadata be collected?  If yes, describe what type(s).  
+  + Describe the types of metadata, such as sensor metadata, data file metadata, project metadata, tag metadata. 
+* What formats will data and metadata be collected, processed, and stored in?  Specify which formats will be used at east step of the data lifecycle.
+  + Describe what format will be used for data and metadata. 
+* What data standards will be followed for these data?
+  + List the standard(s) that will be used to format the data. Please provide details of the standard that will be used.
+* What metadata standards will be followed to document these data?  Specify which standards will be used.
+  + Describe what metadata standards will be followed.  Are they commonly used in the domain or are required by a funder or repository?  If multiple metadata standards will be used, please list multiple options and describe th reason for this decision.  
+* What accompanying data needs to also be shared to interpret or use the data?
+  + Describe what other data will be shared to enable interpretation of the data.  This may include metadata (e.g. about sensors or other equipment), temporal and spatial details, or effort data (e.g. from observational surveys). 
+* What is the timeline for sharing these data?
+  + Describe the timeline for sharing data.    
+* For what length of time will these data be preserved and shared?
+  + Describe the length of time these data will be preserved and shared. 
+* What license will be applied to these data? 
+* In which repository will the data be published?
+  + List the repository that would be best suited for the data planned to be collected by the project.  Consider repositories commonly used in the scientific community as well as which repository would provide the most robust features.   
+* Will any of the data need access restrictions to protect personal privacy, confidential or proprietary business interests, Indigenous data sovereignty, national security, intellectual property, protected species, or other rights or requirements, and if so, how and for how long?
+  + Describe any restrictions, embargoes, or other methods that will be applied to the data and data products, the methods for applying them, and for how long they will be applied.  
+* How does the selected repository provide the needed level of access (e.g. embargos, private datasets)?
+  + Describe how the chosen repositories provide the necessary access levels and protections for the data, and how those will be applied to the various datasets.  
+  
+
+
+
+
+
+
+
+
+
