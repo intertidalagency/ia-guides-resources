@@ -21,6 +21,8 @@ website:
     alignment: "left"
     border: false
     contents:
+      - text: "Ocean Data Stewardship"
+        href: index.qmd
       - section: "Guides"
         contents: 
           - repository_review.qmd
@@ -52,7 +54,7 @@ format:
     fontsize: 1.2rem
     # linkcolor: "#30ACAE"
     backgroundcolor: "#034969"
-    # monobackgroundcolor: "#034969"
+    monobackgroundcolor: "#034969"
     toc: false
     author-meta: "Intertidal Agency"
     page-layout: full
