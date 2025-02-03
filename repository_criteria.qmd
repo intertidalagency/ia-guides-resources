@@ -95,7 +95,7 @@ When storing data, the question of where to put it for long-term access and reus
 
 [FAIR Criteria](https://www.nature.com/articles/sdata201618)  
 [CARE Criteria](https://atlanticdatastream.ca/en/article/fair-and-care-data-principles)  
-[White House Guidelines](https://www.whitehouse.gov/wp-content/uploads/2022/05/05-2022-Desirable-Characteristics-of-Data-Repositories.pdf) (aka [NSTC guidelines](https://www.whitehouse.gov/wp-content/uploads/2022/05/05-2022-Desirable-Characteristics-of-Data-Repositories.pdf))   
+[White House Guidelines](https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/05/05-2022-Desirable-Characteristics-of-Data-Repositories.pdf) (aka [NSTC guidelines](https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/05/05-2022-Desirable-Characteristics-of-Data-Repositories.pdf))   
 [NIH guidelines](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository#desirable-characteristics-for-all-data-repositories)   
 [Center for Open Science re: guidelines](https://www.cos.io/blog/how-osf-meets-desirable-characteristics-for-data-repositories)  
 [Belmont Forum](https://www.belmontforum.org/data)   
