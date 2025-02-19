@@ -1,5 +1,5 @@
 ---
-title: "Guides and Resources for Ocean Data Stewardship"
+title: "Guides & Resources for Ocean Data Stewardship"
 ---
 
 Welcome to Intertidal's page of useful information!   

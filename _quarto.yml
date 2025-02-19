@@ -1,11 +1,18 @@
 project:
-  type: website
+  type: book
   output-dir: docs
 
-website:
-  title: "Guides and Resources for Ocean Data Stewardship"
+book:
+  title: ""
+  chapters: 
+    - index.qmd
+    - part: "Resources"
+      chapters: 
+        - repository_criteria.qmd
+        - minimum_metadata.qmd
+        - data_mgmt_sharing_plans.qmd
   page-navigation: true
-  favicon: /img/Intertidal_Icon_Bold_Color.png
+  favicon: /img/Intertidal-ProfilePic-Aqua-Bold.png
   navbar: 
     title: false
     background: "#034969"
@@ -20,22 +27,22 @@ website:
     background: "#034969"
     alignment: "left"
     border: false
-    contents:
-      - text: "Ocean Data Stewardship"
-        href: index.qmd
-      - section: "Guides"
-        contents: 
-          - repository_review.qmd
-          - defining_data_journey.qmd
-      - text: "---"
-      - section: "Resources"
-        contents: 
-          - repository_criteria.qmd
-          - minimum_metadata.qmd
-          - data_mgmt_sharing_plans.qmd
+    # contents:
+    #   - text: "Ocean Data Stewardship"
+    #     href: index.qmd
+    #   - section: "Guides"
+    #     contents: 
+    #       - repository_review.qmd
+    #       - defining_data_journey.qmd
+    #   - text: "---"
+    #   - section: "Resources"
+    #     contents: 
+    #       - repository_criteria.qmd
+    #       - minimum_metadata.qmd
+    #       - data_mgmt_sharing_plans.qmd
   page-footer: 
     left: <img src="/img/Intertidal_PrimaryLogo_Bold_White.png" width="105">
-    center: "Content licensed CCBY 4.0, Intertidal Agency"
+    center: "Content licensed CC-BY 4.0, Intertidal Agency"
     right: 
       - icon: linkedin
         href: https://www.linkedin.com/company/intertidal-agency/
@@ -53,9 +60,13 @@ format:
     fontcolor: "#ffffff"
     fontsize: 1.2rem
     # linkcolor: "#30ACAE"
+    number-sections: false
     backgroundcolor: "#034969"
     monobackgroundcolor: "#034969"
-    toc: false
+    toc: true
+    toc-location: left
+    toc-title: ""
+    toc-depth: 4
     author-meta: "Intertidal Agency"
     page-layout: full
     grid:
@@ -64,7 +75,6 @@ format:
       margin-width: 150px
       gutter-width: 3rem
 
-editor: visual
 
 execute:
   freeze: auto
