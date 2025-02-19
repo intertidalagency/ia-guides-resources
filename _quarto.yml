@@ -11,7 +11,7 @@ book:
         - repository_criteria.qmd
         - minimum_metadata.qmd
         - data_mgmt_sharing_plans.qmd
-  page-navigation: true
+  page-navigation: false
   favicon: /img/Intertidal-ProfilePic-Aqua-Bold.png
   navbar: 
     title: false
