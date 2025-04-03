@@ -62,7 +62,7 @@ format:
     # linkcolor: "#30ACAE"
     number-sections: false
     backgroundcolor: "#034969"
-    monobackgroundcolor: "#034969"
+    # monobackgroundcolor: "#034969"
     toc: true
     toc-location: left
     toc-title: ""
