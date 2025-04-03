@@ -4,7 +4,7 @@ format: html
 ---
 ### Background 
 
-Metadata describing every dataset, data products, and written article is needed to ensure that these resources can be found, accessed, and reused. If you are publishing data in a robust repository, these metadata recommendations may be met or exceeded by those of the repository.  If not, these recommendations can give a guide as to what types of information should accompany and dataset or research output.  These essential metadata are meant to apply across all research domains and subject areas, and for all research outputs.  
+Metadata describing every dataset, data product, and written article is needed to ensure that these resources can be found, accessed, and reused. If you are publishing data in a robust repository, these metadata recommendations may be met or exceeded by those of the repository.  If not, these recommendations can give a guide as to what types of information should accompany and dataset or research output.  These essential metadata are meant to apply across all research domains and subject areas, and for all research outputs.  
 
 ### References used to develop these guidelines
 
@@ -43,6 +43,7 @@ TBL <- kbl(table1, booktabs = TRUE, align = ("llccc"), format = "html", escape =
        kable_styling(full_width = FALSE, position = "center", fixed_thead = TRUE) %>% 
        add_header_above(header = c(" " = 1, "Description" = 1, "Equivalent fields in common metadata standards" = 3), 
                         align = "l") %>% 
+       # row_spec(row = 0, underline = FALSE, color = "white", background = "#034969") %>% 
        column_spec(1, width = "12em") %>% 
        column_spec(2, width = "45em") %>% 
        column_spec(3:5, width = "8em") 
