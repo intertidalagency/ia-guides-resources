@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./minimum_metadata.html" rel="next">
-<link href="./index.html" rel="prev">
 <link href=".//img/Intertidal-ProfilePic-Aqua-Bold.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -69,6 +67,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
 
 
 </head>
@@ -151,14 +153,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
-  <li><a href="#technical-criteria" id="toc-technical-criteria" class="nav-link" data-scroll-target="#technical-criteria">Technical Criteria</a></li>
-  <li><a href="#data-criteria" id="toc-data-criteria" class="nav-link" data-scroll-target="#data-criteria">Data Criteria</a></li>
-  <li><a href="#management-curation-criteria" id="toc-management-curation-criteria" class="nav-link" data-scroll-target="#management-curation-criteria">Management / Curation Criteria</a></li>
-  <li><a href="#documentation-criteria" id="toc-documentation-criteria" class="nav-link" data-scroll-target="#documentation-criteria">Documentation Criteria</a></li>
-  <li><a href="#data-use-reuse-sharing-criteria" id="toc-data-use-reuse-sharing-criteria" class="nav-link" data-scroll-target="#data-use-reuse-sharing-criteria">Data Use / Reuse / Sharing Criteria</a></li>
-  <li><a href="#management-governance" id="toc-management-governance" class="nav-link" data-scroll-target="#management-governance">Management &amp; Governance</a></li>
-  <li><a href="#pricing" id="toc-pricing" class="nav-link" data-scroll-target="#pricing">Pricing</a></li>
-  <li><a href="#bonus" id="toc-bonus" class="nav-link" data-scroll-target="#bonus">Bonus</a></li>
   <li><a href="#resources-and-other-guidelines" id="toc-resources-and-other-guidelines" class="nav-link" data-scroll-target="#resources-and-other-guidelines">Resources and Other Guidelines</a></li>
   </ul>
 </nav>
@@ -192,136 +186,308 @@ ul.task-list li input[type="checkbox"] {
 <section id="background" class="level3">
 <h3 class="anchored" data-anchor-id="background">Background</h3>
 <p>When storing data, the question of where to put it for long-term access and reuse (&gt;40 years) often comes up. The best place to put it is in a repository; <em>a persistent, findable, searchable entity that provides infrastructure for long-term storage and access to data.</em> A repository should provide for data publication by data holders, as well as access for using/reusing data. It should not be a place into which data is contributed without any way to retrieve it in the future. To evaluate whether data places are robust repositories, Intertidal has developed the following criteria to help data stewards make their own decisions. Not all criteria will be applicable to everyone, but each data steward or organization deciding where to put their data should make transparent decisions about which criteria are important to them and document how those decisions are made.</p>
-</section>
-<section id="technical-criteria" class="level3">
-<h3 class="anchored" data-anchor-id="technical-criteria">Technical Criteria</h3>
-<ul>
-<li>Unique Persistent Identifiers
-<ul>
-<li>Assigns PIDs to datasets</li>
-<li>PID points to persistent landing page</li>
-</ul></li>
-<li>Security and Integrity
-<ul>
-<li>Documented criteria for preventing unauthorized access, modification, or release of data</li>
-<li>Security levels appropriate to the sensitivity of data</li>
-<li>Data anonymization</li>
-</ul></li>
-<li>Confidentiality
-<ul>
-<li>Ensure administrative, technical, and physical safeguards</li>
-</ul></li>
-</ul>
-</section>
-<section id="data-criteria" class="level3">
-<h3 class="anchored" data-anchor-id="data-criteria">Data Criteria</h3>
-<ul>
-<li>What types of data can be ingested / stored?</li>
-<li>For connected data sources, API standards? Other requirements?</li>
-<li>Common Format
-<ul>
-<li>Allows datasets and metadata to be downloaded, accessed, or exported</li>
-<li>Support for widely used and non-proprietary formats for data and metadata</li>
-</ul></li>
-</ul>
-</section>
-<section id="management-curation-criteria" class="level3">
-<h3 class="anchored" data-anchor-id="management-curation-criteria">Management / Curation Criteria</h3>
-<ul>
-<li>Long-term Sustainability
-<ul>
-<li>Long-term management of data</li>
-<li>Maintain availability of dataset</li>
-<li>Stable technical infrastructure</li>
-<li>Stable funding</li>
-<li>Contingency plan for data</li>
-</ul></li>
-<li>Curation and Quality Assurance
-<ul>
-<li>Provide or enable others to provide expert curation</li>
-<li>Datasets must have metadata</li>
-<li>Titles of records/datasets should be standardized in quality, if not content, across a given portal/repo/catalog</li>
-<li>Short descriptive blurbs/abstracts/summaries about a dataset/record should be informative but not overly long and wordy. These should be curated.</li>
-</ul></li>
-<li>Retention Policy
-<ul>
-<li>Policy for data retention</li>
-</ul></li>
-</ul>
-</section>
-<section id="documentation-criteria" class="level3">
-<h3 class="anchored" data-anchor-id="documentation-criteria">Documentation Criteria</h3>
-<ul>
-<li>Metadata Criteria
-<ul>
-<li>Datasets must have metadata</li>
-<li>Use schemas appropriate to the community</li>
-<li>Include search keywords to make dataset discoverable</li>
-</ul></li>
-<li>Provenance Criteria
-<ul>
-<li>Record the origins, chain of custody, and modifications of the data</li>
-<li>Link datasets to provide context and aid in discoverability</li>
-</ul></li>
-</ul>
-</section>
-<section id="data-use-reuse-sharing-criteria" class="level3">
-<h3 class="anchored" data-anchor-id="data-use-reuse-sharing-criteria">Data Use / Reuse / Sharing Criteria</h3>
-<ul>
-<li>Discoverability
-<ul>
-<li>Repository federated with other repositories</li>
-<li>Repository listed in a wider catalog/federation/etc. that can be a one-stop-shop pointer to datasets</li>
-<li>Should use PIDs or UIDs, not website URLs (break frequently)</li>
-</ul></li>
-<li>Free and Easy Access
-<ul>
-<li>Free access to datasets and metadata</li>
-<li>Support for broad, equitable, open access</li>
-<li>Timely access after submission</li>
-<li>Maintain privacy, confidentiality, tribal sovereignty, and protection of sensitive data</li>
-</ul></li>
-<li>Broad and Measured Reuse
-<ul>
-<li>Broadest possible terms of reuse</li>
-<li>Measure attribution, citation, and reuse</li>
-</ul></li>
-<li>Clear Use Guidance
-<ul>
-<li>Clear documentation of terms for access and reuse</li>
-</ul></li>
-</ul>
-</section>
-<section id="management-governance" class="level3">
-<h3 class="anchored" data-anchor-id="management-governance">Management &amp; Governance</h3>
-<ul>
-<li>For a restricted access repository
-<ul>
-<li>Roles-based access management process</li>
-<li>How many roles can we have</li>
-<li>What parameters can we define for each role</li>
-<li>Access logs?</li>
-</ul></li>
-</ul>
-</section>
-<section id="pricing" class="level3">
-<h3 class="anchored" data-anchor-id="pricing">Pricing</h3>
-<ul>
-<li>How are accounts priced
-<ul>
-<li>Storage size / data amount</li>
-<li>Number of users</li>
-<li>Specific features</li>
-<li>Other</li>
-</ul></li>
-<li>Nonprofit discount?</li>
-</ul>
-</section>
-<section id="bonus" class="level3">
-<h3 class="anchored" data-anchor-id="bonus">Bonus</h3>
-<ul>
-<li>Repository is certified by <a href="https://www.coretrustseal.org/">CoreTrustSeal</a></li>
-</ul>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;text-decoration: underline;border-bottom: 1px solid"> Criteria Type </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;text-decoration: underline;border-bottom: 1px solid"> Must have </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;text-decoration: underline;border-bottom: 1px solid"> Nice to have </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr grouplength="6"><td colspan="3" style="border-bottom: 1px solid;"><strong>Technical Criteria</strong></td></tr>
+<tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Unique Persistent Identifiers </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Assign PIDs to datasets </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> PIDs point to persistent landing page </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Security and Integrity </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Have documented criteria for preventing unauthorized access, modification, or release of data </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Have security levels appropriate to the sensitivity of data </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Implement data anonymization as appropriate </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Confidentiality as necessary </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Ensure administrative, technical, and physical safeguards </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="3" style="border-bottom: 1px solid;"><strong>Data Criteria</strong></td></tr>
+<tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Common formats </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Enable easier dataset and metadata downloaded, access, or export </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Support widely used and non-proprietary formats for data and metadata </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Data types </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Clear communication of the types of data that can be ingested or stored </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Connected data places </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Clear communication of the API standards or other requirements for connected data sources </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr grouplength="9"><td colspan="3" style="border-bottom: 1px solid;"><strong>Management/Curation Criteria</strong></td></tr>
+<tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Long-term Sustainability </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Provide long-term management of data </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Maintain availability of datasets </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Have stable technical infrastructure </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Have stable funding </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Have contingency plan for data </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Curation and Quality Assurance </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Datasets must have metadata </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;"> Provide or enable others to provide expert curation </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Standardized quality of record/dataset titles </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Informative, short descriptive abstracts/summaries about a dataset/record </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Retention Policy </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Policy for data retention </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="3" style="border-bottom: 1px solid;"><strong>Documentation Criteria</strong></td></tr>
+<tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Metadata Support </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Datasets must have metadata </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Use schemas appropriate to the community </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Include search keywords to make dataset discoverable </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Provenance Support </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Record the origins, chain of custody, and modifications of the data </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;"> Link datasets to provide context and aid in discoverability </td>
+  </tr>
+  <tr grouplength="9"><td colspan="3" style="border-bottom: 1px solid;"><strong>Data Use/Reuse/Sharing Criteria</strong></td></tr>
+<tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Discoverability </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Use PIDs or UIDs </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;"> Repository federated with other repositories </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;">  </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;"> Repository listed in a wider catalog/federation/etc. that can be a one-stop-shop pointer to datasets </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Free and Easy Access </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> No cost to access datasets and metadata </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Support for broad, equitable, open access </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Timely access after submission </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Maintain privacy, confidentiality, tribal sovereignty, and protection of sensitive data </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Broad and Measured Reuse </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Have broadest possible terms of reuse </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Measure attribution, citation, and reuse </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Clear Use Guidance </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Clearly documented terms for access and reuse </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="3" style="border-bottom: 1px solid;"><strong>Management &amp; Governance Criteria</strong></td></tr>
+<tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> For repositories that support restricted access </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Have a roles-based access management process </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Define how many roles can an person can have </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Describe parameters that can be defined for each role </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Keep access logs </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr grouplength="5"><td colspan="3" style="border-bottom: 1px solid;"><strong>Pricing Criteria</strong></td></tr>
+<tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Account pricing information </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Storage size / data amount </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Number of users </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;"> Specific features </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Availability of discounts </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;">  </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;"> Volume discounts </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1">  </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;">  </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;"> Nonproft organization discounts </td>
+  </tr>
+  <tr grouplength="1"><td colspan="3" style="border-bottom: 1px solid;"><strong>Certification Criteria</strong></td></tr>
+<tr>
+   <td style="text-align:left;width: 18em; border-right:1px solid;padding-left: 2em;" indentlevel="1"> Certification </td>
+   <td style="text-align:left;width: 35em; border-right:1px solid;">  </td>
+   <td style="text-align:left;width: 30em; border-right:1px solid;"> Certified by <a href="https://www.coretrustseal.org/">CoreTrust Seal</a> </td>
+  </tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<!-- ### Technical Criteria -->
+<!-- -   Unique Persistent Identifiers -->
+<!--     -   Assigns PIDs to datasets -->
+<!--     -   PID points to persistent landing page -->
+<!-- -   Security and Integrity -->
+<!--     -   Documented criteria for preventing unauthorized access, modification, or release of data -->
+<!--     -   Security levels appropriate to the sensitivity of data -->
+<!--     -   Data anonymization -->
+<!-- -   Confidentiality -->
+<!--     -   Ensure administrative, technical, and physical safeguards -->
+<!-- ### Data Criteria -->
+<!-- -   What types of data can be ingested / stored? -->
+<!-- -   For connected data sources, API standards? Other requirements? -->
+<!-- -   Common Format -->
+<!--     -   Allows datasets and metadata to be downloaded, accessed, or exported -->
+<!--     -   Support for widely used and non-proprietary formats for data and metadata -->
+<!-- ### Management / Curation Criteria -->
+<!-- -   Long-term Sustainability -->
+<!--     -   Long-term management of data -->
+<!--     -   Maintain availability of dataset -->
+<!--     -   Stable technical infrastructure -->
+<!--     -   Stable funding -->
+<!--     -   Contingency plan for data -->
+<!-- -   Curation and Quality Assurance -->
+<!--     -   Provide or enable others to provide expert curation -->
+<!--     -   Datasets must have metadata -->
+<!--     -   Titles of records/datasets should be standardized in quality, if not content, across a given portal/repo/catalog -->
+<!--     -   Short descriptive blurbs/abstracts/summaries about a dataset/record should be informative but not overly long and wordy. These should be curated. -->
+<!-- -   Retention Policy -->
+<!--     -   Policy for data retention -->
+<!-- ### Documentation Criteria -->
+<!-- -   Metadata Criteria -->
+<!--     -   Datasets must have metadata -->
+<!--     -   Use schemas appropriate to the community -->
+<!--     -   Include search keywords to make dataset discoverable -->
+<!-- -   Provenance Criteria -->
+<!--     -   Record the origins, chain of custody, and modifications of the data -->
+<!--     -   Link datasets to provide context and aid in discoverability -->
+<!-- ### Data Use / Reuse / Sharing Criteria -->
+<!-- -   Discoverability -->
+<!--     -   Repository federated with other repositories -->
+<!--     -   Repository listed in a wider catalog/federation/etc. that can be a one-stop-shop pointer to datasets -->
+<!--     -   Should use PIDs or UIDs, not website URLs (break frequently) -->
+<!-- -   Free and Easy Access -->
+<!--     -   Free access to datasets and metadata -->
+<!--     -   Support for broad, equitable, open access -->
+<!--     -   Timely access after submission -->
+<!--     -   Maintain privacy, confidentiality, tribal sovereignty, and protection of sensitive data -->
+<!-- -   Broad and Measured Reuse -->
+<!--     -   Broadest possible terms of reuse -->
+<!--     -   Measure attribution, citation, and reuse -->
+<!-- -   Clear Use Guidance -->
+<!--     -   Clear documentation of terms for access and reuse -->
+<!-- ### Management & Governance -->
+<!-- -   For a restricted access repository -->
+<!--     -   Roles-based access management process -->
+<!--     -   How many roles can we have -->
+<!--     -   What parameters can we define for each role -->
+<!--     -   Access logs? -->
+<!-- ### Pricing -->
+<!-- -   How are accounts priced -->
+<!--     -   Storage size / data amount -->
+<!--     -   Number of users -->
+<!--     -   Specific features -->
+<!--     -   Other -->
+<!-- -   Nonprofit discount? -->
+<!-- ### Bonus -->
+<!-- -   Repository is certified by [CoreTrustSeal](https://www.coretrustseal.org/) -->
 </section>
 <section id="resources-and-other-guidelines" class="level3">
 <h3 class="anchored" data-anchor-id="resources-and-other-guidelines">Resources and Other Guidelines</h3>
@@ -761,18 +927,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation column-page-right">
-  <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Guides &amp; Resources for Ocean Data Stewardship">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Guides &amp; Resources for Ocean Data Stewardship</span></span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./minimum_metadata.html" class="pagination-link" aria-label="Minimum metadata recommendations">
-        <span class="nav-page-text"><span class="chapter-title">Minimum metadata recommendations</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
