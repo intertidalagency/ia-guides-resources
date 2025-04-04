@@ -7,6 +7,7 @@ format: html
 
 When storing data, the question of where to put it for long-term access and reuse (\>40 years) often comes up. The best place to put it is in a repository; *a persistent, findable, searchable entity that provides infrastructure for long-term storage and access to data.* A repository should provide for data publication by data holders, as well as access for using/reusing data. It should not be a place into which data is contributed without any way to retrieve it in the future. To evaluate whether data places are robust repositories, Intertidal has developed the following criteria to help data stewards make their own decisions. Not all criteria will be applicable to everyone, but each data steward or organization deciding where to put their data should make transparent decisions about which criteria are important to them and document how those decisions are made.
 
+### Criteria
 
 ```{r, echo=FALSE, warning=FALSE, include=FALSE}
 library(tidyverse); library(knitr); library(kableExtra)
@@ -17,15 +18,6 @@ table_repo <- read.csv("repo_criteria.csv", header = TRUE, stringsAsFactors = FA
 
 ```{r, echo=FALSE, warning=FALSE, include=FALSE}
 table_repo[42,3] <- paste0("Certified by ","<a href=\"","https://www.coretrustseal.org/","\">","CoreTrust Seal","</a>")
- 
-# table_repo[1,1] <- paste0("")
-# table_repo[10,1] <- paste0("")
-# table_repo[17,1] <- paste0("")
-# table_repo[29,1] <- paste0("")
-# table_repo[35,1] <- paste0("")
-# table_repo[48,1] <- paste0("")
-# table_repo[53,1] <- paste0("")
-# table_repo[60,1] <- paste0("")
                     
 ```
 
@@ -34,10 +26,12 @@ table_repo[42,3] <- paste0("Certified by ","<a href=\"","https://www.coretrustse
 #| html-table-processing: none
 
 TBR <- kbl(table_repo, booktabs = TRUE, align = ("lll"), format = "html", escape = FALSE, padding = 2L,
-           col.names = c("Criteria Type", "Must have", "Nice to have")) %>% 
+           col.names = c("", "Must have", "Nice to have")) %>% 
        kable_styling(full_width = FALSE, position = "center", fixed_thead = TRUE) %>% 
-       row_spec(row = 0, underline = TRUE, extra_css = "border-bottom: 1px solid") %>%   #, color = "white", background = "#034969") %>% 
-       column_spec(1, width = "18em", border_right = TRUE) %>% 
+       row_spec(row = 0, underline = FALSE, extra_css = "border-bottom: 1px solid",
+                font_size = "x-large",
+                color = "white", background = "#034969") %>% 
+       column_spec(1, width = "18em", border_right = TRUE, border_left = TRUE) %>% 
        column_spec(2, width = "35em", border_right = TRUE) %>%
        column_spec(3, width = "30em", border_right = TRUE) %>% 
        pack_rows("Technical Criteria", start_row = 1, end_row = 6) %>% 
@@ -138,7 +132,7 @@ TBR
 
 <!-- -   Repository is certified by [CoreTrustSeal](https://www.coretrustseal.org/) -->
 
-### Resources and Other Guidelines
+### Other Resources and Guidelines
 
 [FAIR Criteria](https://www.nature.com/articles/sdata201618)  
 [CARE Criteria](https://atlanticdatastream.ca/en/article/fair-and-care-data-principles)  
