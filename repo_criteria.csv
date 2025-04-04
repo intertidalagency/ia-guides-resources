@@ -22,7 +22,7 @@ Metadata Support,Datasets must have metadata,
 ,Use schemas appropriate to the community,
 ,Include search keywords to make dataset discoverable,
 Provenance Support,"Record the origins, chain of custody, and modifications of the data",Link datasets to provide context and aid in discoverability
-Discoverability,Use PIDs or UIDs,Repository federated with other repositories
+Discoverability,Use PIDs,Repository federated with other repositories
 ,,Repository listed in a wider catalog/federation/etc. that can be a one-stop-shop pointer to datasets
 Free and Easy Access,No cost to access datasets and metadata,
 ,"Support for broad, equitable, open access",
