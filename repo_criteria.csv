@@ -1,0 +1,43 @@
+Criteria_type,Must_have,Nice_to_have
+Unique Persistent Identifiers,Assign PIDs to datasets,
+,PIDs point to persistent landing page,
+Security and Integrity,"Have documented criteria for preventing unauthorized access, modification, or release of data",
+,Have security levels appropriate to the sensitivity of data,
+,Implement data anonymization as appropriate,
+Confidentiality as necessary,"Ensure administrative, technical, and physical safeguards",
+Common formats,"Enable easier dataset and metadata downloaded, access, or export",
+,Support widely used and non-proprietary formats for data and metadata,
+Data types,Clear communication of the types of data that can be ingested or stored,
+Connected data places,Clear communication of the API standards or other requirements for connected data sources,
+Long-term Sustainability,Provide long-term management of data,
+,Maintain availability of datasets,
+,Have stable technical infrastructure,
+,Have stable funding,
+,Have contingency plan for data,
+Curation and Quality Assurance,Datasets must have metadata,Provide or enable others to provide expert curation
+,Standardized quality of record/dataset titles,
+,"Informative, short descriptive abstracts/summaries about a dataset/record",
+Retention Policy,Policy for data retention,
+Metadata Support,Datasets must have metadata,
+,Use schemas appropriate to the community,
+,Include search keywords to make dataset discoverable,
+Provenance Support,"Record the origins, chain of custody, and modifications of the data",Link datasets to provide context and aid in discoverability
+Discoverability,Use PIDs or UIDs,Repository federated with other repositories
+,,Repository listed in a wider catalog/federation/etc. that can be a one-stop-shop pointer to datasets
+Free and Easy Access,No cost to access datasets and metadata,
+,"Support for broad, equitable, open access",
+,Timely access after submission,
+,"Maintain privacy, confidentiality, tribal sovereignty, and protection of sensitive data",
+Broad and Measured Reuse,Have broadest possible terms of reuse,
+,"Measure attribution, citation, and reuse",
+Clear Use Guidance,Clearly documented terms for access and reuse,
+For repositories that support restricted access,Have a roles-based access management process,
+,Define how many roles can an person can have,
+,Describe parameters that can be defined for each role,
+,Keep access logs,
+Account pricing information,Storage size / data amount,
+,Number of users,
+,Specific features,
+Availability of discounts,,Volume discounts
+,,Nonproft organization discounts
+Certification,,Certified by [CoreTrustSeal](https://www.coretrustseal.org/)

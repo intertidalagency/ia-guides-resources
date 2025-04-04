@@ -1,8 +1,17 @@
 ---
-title: "Guides & Resources for Ocean Data Stewardship"
+title: "Ocean Data Stewardship Resources"
 ---
 
-Welcome to Intertidal's page of useful information!   
-Here we hope you will find answers to your questions about ocean data stewardship.  
-If you would like to see additional topics or questions added, please [contact us](https://www.intertidalagency.org/contact). 
+Welcome to Intertidal's resource home for ocean data stewards!   
+<br>  
+Data stewardship is central to Intertidal’s work connecting ocean data to action. [Data stewards](https://files.thegovlab.org/Primer-1-Creating-and-Empowering-Chief-Data-Stewards.pdf) are 
+individuals and teams within governments, communities, research groups, nonprofits, and businesses 
+who make data findable, accessible, interoperable, and reusable (aka FAIR). Without ocean data 
+stewards, it’s much harder to find and recombine ocean data to make new discoveries, monitor ocean 
+conditions, and design solutions. Anyone who works with ocean data and information can practice 
+ocean data stewardship. These are some of the resources  we’ve developed and tested with our 
+partners. Try them out and see how they can support your ocean data stewardship practices.  
+<br>
+To submit feedback, ask questions or suggest additional topics you'd like to see us add,
+please [contact us](https://www.intertidalagency.org/contact). 
                                                 
