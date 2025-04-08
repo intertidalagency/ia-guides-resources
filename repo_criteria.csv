@@ -8,7 +8,7 @@ Confidentiality as necessary,"Ensure administrative, technical, and physical saf
 Common formats,"Enable easier dataset and metadata downloaded, access, or export",
 ,Support widely used and non-proprietary formats for data and metadata,
 Data types,Clear communication of the types of data that can be ingested or stored,
-Connected data places,Clear communication of the API standards or other requirements for connected data sources,
+Data connections,Clear communication of the API standards or other requirements for connected data sources,
 Long-term Sustainability,Provide long-term management of data,
 ,Maintain availability of datasets,
 ,Have stable technical infrastructure,
