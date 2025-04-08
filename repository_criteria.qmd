@@ -38,8 +38,8 @@ TBR <- kbl(table_repo, booktabs = TRUE, align = ("lll"), format = "html", escape
        pack_rows("Data Criteria", start_row = 7, end_row = 10) %>% 
        pack_rows("Management/Curation Criteria", start_row = 11, end_row = 19) %>% 
        pack_rows("Documentation Criteria", start_row = 20, end_row = 23) %>% 
-       pack_rows("Data Use/Reuse/Sharing Criteria", start_row = 24, end_row = 32) %>% 
-       pack_rows("Management & Governance Criteria", start_row = 33, end_row = 36) %>% 
+       pack_rows("Data Use/Reuse/Sharing Criteria", start_row = 24, end_row = 31) %>% 
+       pack_rows("Management & Governance Criteria", start_row = 32, end_row = 35) %>% 
        pack_rows("Pricing Criteria", start_row = 37, end_row = 41) %>% 
        pack_rows("Certification Criteria", start_row = 42, end_row = 42)
       
