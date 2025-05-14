@@ -5,134 +5,150 @@ format: html
 
 ### Background
 
-When storing data, the question of where to put it for long-term access and reuse (\>40 years) often comes up. The best place to put it is in a repository; *a persistent, findable, searchable entity that provides infrastructure for long-term storage and access to data.* A repository should provide for data publication by data holders, as well as access for using/reusing data. It should not be a place into which data is contributed without any way to retrieve it in the future. To evaluate whether data places are robust repositories, Intertidal has developed the following criteria to help data stewards make their own decisions. Not all criteria will be applicable to everyone, but each data steward or organization deciding where to put their data should make transparent decisions about which criteria are important to them and document how those decisions are made.
+Successful data sharing requires putting data where it can be discovered and reused.  These places are [data repositories](https://link.springer.com/referenceworkentry/10.1007/978-3-319-32001-4_59-1); *persistent, findable, searchable entities that provides infrastructure for long-term storage and access to data.*  A repository should provide for data publication by data holders, as well as access for using/reusing data. It should not be a place into which data is contributed without any way to retrieve it in the future. Intertidal has developed this list of repository evaluation criteria that synthesizes multiple sources (see [Resources and Guidelines](#resources-and-guidelines)), and indicates "should have" criteria (no asterisk) and "nice to have" criteria (asterisk).  
 
-### Criteria
 
-```{r, echo=FALSE, warning=FALSE, include=FALSE}
-library(tidyverse); library(knitr); library(kableExtra)
+Individual researchers and data holders may already have preferred subject matter repositories where they regularly publish and access data (e.g. the Global Biodiversity Information Forum, aka GBIF). However, for projects that span a wide range of fields and data types (e.g. eDNA, underwater video, satellite images, socioeconomic data) it’s important to make sure all data are discoverable, accessible, well-documented, and preserved across all partners. Creating a recommended repository list can support project partners by:
 
-table_repo <- read.csv("repo_criteria.csv", header = TRUE, stringsAsFactors = FALSE)
+-   Simplifying choices for where to publish and/or search for data
+-   Identifying repositories that meet specific project needs, such as supporting the CARE principles for Indigenous Data Sovereignty or providing custom metadata tags that feed into a project data catalog
+-   Avoiding confusion between data repositories that provide long-term data access and storage, and other data tools and platforms (e.g. ERDDAP) that do not
+
+Since repositories often have data structure requirements, it’s valuable to know where data will eventually be published before data collection starts, so processes can be set up accordingly (see DMSP guide). 
+
+
+This list is designed for discussion with a project team or organization, ideally one including data managers, data users, and researchers, so that each project or organization can make transparent decisions about which criteria are important to them and where best to share their data. There may not be a perfect solution for every data type, and in choosing a repository list the team will have to decide what options are “good enough.”  Documenting the repository selection process and guiding partners to long-term storage and access solutions contributes to ocean data stewardship and making more ocean data FAIR, useful, and (re)used.
+
+
+<!-- ### Criteria -->
+
+```{r, echo=FALSE, warning=FALSE, include=FALSE, eval=FALSE}
+# library(tidyverse); library(knitr); library(kableExtra)
+
+# table_repo <- read.csv("repo_criteria.csv", header = TRUE, stringsAsFactors = FALSE)
 ```
 
 
-```{r, echo=FALSE, warning=FALSE, include=FALSE}
-table_repo[42,3] <- paste0("Certified by ","<a href=\"","https://www.coretrustseal.org/","\">","CoreTrust Seal","</a>")
+```{r, echo=FALSE, warning=FALSE, include=FALSE, eval=FALSE}
+# table_repo[42,3] <- paste0("Certified by ","<a href=\"","https://www.coretrustseal.org/","\">","CoreTrust Seal","</a>")
                     
 ```
 
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
-#| html-table-processing: none
+```{r, echo=FALSE, warning=FALSE, message=FALSE, eval=FALSE}
+<!-- #| html-table-processing: none -->
 
-TBR <- kbl(table_repo, booktabs = TRUE, align = ("lll"), format = "html", escape = FALSE, padding = 2L,
-           col.names = c("", "Must have", "Nice to have")) %>% 
-       kable_styling(full_width = FALSE, position = "center", fixed_thead = TRUE) %>% 
-       row_spec(row = 0, underline = FALSE, extra_css = "border-bottom: 1px solid",
-                font_size = "x-large",
-                color = "white", background = "#034969") %>% 
-       column_spec(1, width = "18em", border_right = TRUE, border_left = TRUE) %>% 
-       column_spec(2, width = "35em", border_right = TRUE) %>%
-       column_spec(3, width = "30em", border_right = TRUE) %>% 
-       pack_rows("Technical Criteria", start_row = 1, end_row = 6) %>% 
-       pack_rows("Data Criteria", start_row = 7, end_row = 10) %>% 
-       pack_rows("Management/Curation Criteria", start_row = 11, end_row = 19) %>% 
-       pack_rows("Documentation Criteria", start_row = 20, end_row = 23) %>% 
-       pack_rows("Data Use/Reuse/Sharing Criteria", start_row = 24, end_row = 31) %>% 
-       pack_rows("Management & Governance Criteria", start_row = 32, end_row = 35) %>% 
-       pack_rows("Pricing Criteria", start_row = 37, end_row = 41) %>% 
-       pack_rows("Certification Criteria", start_row = 42, end_row = 42)
-      
-TBR
+# TBR <- kbl(table_repo, booktabs = TRUE, align = ("lll"), format = "html", escape = FALSE, padding = 2L,
+#            col.names = c("", "Must have", "Nice to have")) %>% 
+#        kable_styling(full_width = FALSE, position = "center", fixed_thead = TRUE) %>% 
+#        row_spec(row = 0, underline = FALSE, extra_css = "border-bottom: 1px solid",
+#                 font_size = "x-large",
+#                 color = "white", background = "#034969") %>% 
+#        column_spec(1, width = "18em", border_right = TRUE, border_left = TRUE) %>% 
+#        column_spec(2, width = "35em", border_right = TRUE) %>%
+#        column_spec(3, width = "30em", border_right = TRUE) %>% 
+#        pack_rows("Technical Criteria", start_row = 1, end_row = 6) %>% 
+#        pack_rows("Data Criteria", start_row = 7, end_row = 10) %>% 
+#        pack_rows("Management/Curation Criteria", start_row = 11, end_row = 19) %>% 
+#        pack_rows("Documentation Criteria", start_row = 20, end_row = 23) %>% 
+#        pack_rows("Data Use/Reuse/Sharing Criteria", start_row = 24, end_row = 31) %>% 
+#        pack_rows("Management & Governance Criteria", start_row = 32, end_row = 35) %>% 
+#        pack_rows("Pricing Criteria", start_row = 37, end_row = 41) %>% 
+#        pack_rows("Certification Criteria", start_row = 42, end_row = 42)
+#       
+# TBR
 ```
 
 
 
-<!-- ### Technical Criteria -->
+### Technical Criteria
 
-<!-- -   Unique Persistent Identifiers -->
-<!--     -   Assigns PIDs to datasets -->
-<!--     -   PID points to persistent landing page -->
-<!-- -   Security and Integrity -->
-<!--     -   Documented criteria for preventing unauthorized access, modification, or release of data -->
-<!--     -   Security levels appropriate to the sensitivity of data -->
-<!--     -   Data anonymization -->
-<!-- -   Confidentiality -->
-<!--     -   Ensure administrative, technical, and physical safeguards -->
+-   Unique Persistent Identifiers (PIDs)
+    -   Assigns PIDs to datasets
+    -   Each PID points to a persistent landing page
+-   Security and Integrity
+    -   Have documented criteria for preventing unauthorized access, modification, or release of data
+    -   Have security levels appropriate to the sensitivity of data
+    -   Implement data anonymization as appropriate
+-   Confidentiality as necessary
+    -   Ensure administrative, technical, and physical safeguards
 
-<!-- ### Data Criteria -->
+### Data Criteria
 
-<!-- -   What types of data can be ingested / stored? -->
-<!-- -   For connected data sources, API standards? Other requirements? -->
-<!-- -   Common Format -->
-<!--     -   Allows datasets and metadata to be downloaded, accessed, or exported -->
-<!--     -   Support for widely used and non-proprietary formats for data and metadata -->
+-   Common formats
+    -   Enable easier dataset and metadata to be download, access, or export
+    -   Support widely used and non-proprietary formats for data and metadata
+-   Data types
+    -   Clear communication of the types of data that can be ingested or stored
+-   Data Connections
+    -   Clearn communication of the API standards or other requirements for connected data sources
 
-<!-- ### Management / Curation Criteria -->
+### Management / Curation Criteria
 
-<!-- -   Long-term Sustainability -->
-<!--     -   Long-term management of data -->
-<!--     -   Maintain availability of dataset -->
-<!--     -   Stable technical infrastructure -->
-<!--     -   Stable funding -->
-<!--     -   Contingency plan for data -->
-<!-- -   Curation and Quality Assurance -->
-<!--     -   Provide or enable others to provide expert curation -->
-<!--     -   Datasets must have metadata -->
-<!--     -   Titles of records/datasets should be standardized in quality, if not content, across a given portal/repo/catalog -->
-<!--     -   Short descriptive blurbs/abstracts/summaries about a dataset/record should be informative but not overly long and wordy. These should be curated. -->
-<!-- -   Retention Policy -->
-<!--     -   Policy for data retention -->
+-   Long-term Sustainability
+    -   Provide long-term management of data
+    -   Maintain availability of datasets
+    -   Have stable technical infrastructure
+    -   Have stable funding
+    -   Have contingency plan for natural disasters and other events
+-   Curation and Quality Assurance
+    -   Ensures datasets have metadata
+    -   Standardized quality of record or dataset title 
+    -   Informative, short, descriptive abstracts or summaries about a dataset or record
+    -   *Provide or enable others to provide expert curation
+-   Retention Policy
+    -   Have a policy for data retention
 
-<!-- ### Documentation Criteria -->
+### Documentation Criteria
 
-<!-- -   Metadata Criteria -->
-<!--     -   Datasets must have metadata -->
-<!--     -   Use schemas appropriate to the community -->
-<!--     -   Include search keywords to make dataset discoverable -->
-<!-- -   Provenance Criteria -->
-<!--     -   Record the origins, chain of custody, and modifications of the data -->
-<!--     -   Link datasets to provide context and aid in discoverability -->
+-   Metadata Support
+    -   Use schemas appropriate to the community
+    -   Include search keywords to make datasets discoverable
+    -   *Include Local Contexts or other Indigenous Knowledge labels as appropriate
+-   Provenance Support
+    -   Record the origins, chain of custody, and modifications of the data
+    -   *Link datasets to provide context and aid in discoverability
 
-<!-- ### Data Use / Reuse / Sharing Criteria -->
+### Data Use / Reuse / Sharing Criteria
 
-<!-- -   Discoverability -->
-<!--     -   Repository federated with other repositories -->
-<!--     -   Repository listed in a wider catalog/federation/etc. that can be a one-stop-shop pointer to datasets -->
-<!--     -   Should use PIDs or UIDs, not website URLs (break frequently) -->
-<!-- -   Free and Easy Access -->
-<!--     -   Free access to datasets and metadata -->
-<!--     -   Support for broad, equitable, open access -->
-<!--     -   Timely access after submission -->
-<!--     -   Maintain privacy, confidentiality, tribal sovereignty, and protection of sensitive data -->
-<!-- -   Broad and Measured Reuse -->
-<!--     -   Broadest possible terms of reuse -->
-<!--     -   Measure attribution, citation, and reuse -->
-<!-- -   Clear Use Guidance -->
-<!--     -   Clear documentation of terms for access and reuse -->
+-   Discoverability
+    -   Use PIDs 
+    -   *Repository is federated with other repositories
+    -   *Repository is listed in a federated catalog
+-   Free and Easy Access
+    -   Provide no cost to access datasets and metadata
+    -   Support broad, equitable, open access
+    -   Provide timely access after submission
+-   Broad and Measured Reuse
+    -   Have broadest possible terms of reuse
+    -   Measure attribution, citation, and reuse
+-   Clear Use Guidance
+    -   Clearly documented terms for access and reuse
 
-<!-- ### Management & Governance -->
+### Management & Governance Criteria
 
-<!-- -   For a restricted access repository -->
-<!--     -   Roles-based access management process -->
-<!--     -   How many roles can we have -->
-<!--     -   What parameters can we define for each role -->
-<!--     -   Access logs? -->
+-   Supporting restricted access
+    -   Have a roles-based access management process
+    -   Describe parameters that can be defined for each role
+    -   Keep access logs
+    -   Maintain privacy, confidentiality, tribal sovereignty, and protection of sensitive data
 
-<!-- ### Pricing -->
+### Pricing Criteria
 
-<!-- -   How are accounts priced -->
-<!--     -   Storage size / data amount -->
-<!--     -   Number of users -->
-<!--     -   Specific features -->
-<!--     -   Other -->
-<!-- -   Nonprofit discount? -->
+-   Account Pricing Information
+    -   Storage size / data amount
+    -   Number of users
+    -   Specific features or services (e.g. visualization)
+-   Availability of discounts
+    -   *Volume discounts
+    -   *Nonprofit organization discounts
 
-<!-- ### Bonus -->
+### Certification Criteria
 
-<!-- -   Repository is certified by [CoreTrustSeal](https://www.coretrustseal.org/) -->
+-   *Repository is certified by [CoreTrustSeal](https://www.coretrustseal.org/)
 
-### Other Resources and Guidelines
+
+### Resources and Guidelines
 
 [FAIR Criteria](https://www.nature.com/articles/sdata201618)  
 [CARE Criteria](https://atlanticdatastream.ca/en/article/fair-and-care-data-principles)  
@@ -144,4 +160,5 @@ TBR
 [Taylor and Francis](https://authorservices.taylorandfrancis.com/data-sharing/#)  
 [Swiss NSF](https://www.snf.ch/en/WtezJ6qxuTRnSYgF/topic/open-research-data-which-data-repositories-can-be-used)  
 [FAIRsharing and DataCite](https://osf.io/m2bce)  
-[COAR](https://www.coar-repositories.org/news-updates/joint-position-statement-on-data-repository-selection-criteria-that-matter/)
+[COAR](https://www.coar-repositories.org/news-updates/joint-position-statement-on-data-repository-selection-criteria-that-matter/)  
+[O'Brien et al. 2024 Earth Science Data Repositories: Implementing the CARE  Principles. Data Science Journal](https:// doi.org/10.5334/dsj-2024-037)
